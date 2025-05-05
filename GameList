@@ -12,5 +12,5 @@ if scripts[gameID] then
     loadstring(game:HttpGet(scripts[gameID]))()
 else
     local player = game.Players.LocalPlayer
-    player:Kick("[not supported] ID: " .. tostring(gameID))
+    player:Kick("[Not Supported Game] ID: " .. tostring(gameID))
 end
