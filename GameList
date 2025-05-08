@@ -4,8 +4,8 @@ if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
 getgenv().Team = "Marines"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/BloxFruits.Lua"))()
 elseif placeId == 116495829188952 or placeId == 70876832253163 then
--- DeadRails
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubDeadRails1"))()
+-- Dead Rails
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/DeadRails.Lua"))()
 elseif placeId == 18687417158 then
 -- Forsaken
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubForsaken.lua1"))()
