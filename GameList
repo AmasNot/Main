@@ -15,5 +15,5 @@ elseif placeId == 87039211657390 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubAriseCrossover.lua1"))()
 elseif placeId == 126884695634066 then
 -- GrowAGarden
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubGrowAGarden.lua1"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/GrowAGarden.Lua"))()
 end
