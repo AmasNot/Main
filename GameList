@@ -4,15 +4,19 @@ if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
 getgenv().Team = "Marines"
 (game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("SetTeam", getgenv().Team)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/BloxFruits.Lua"))()
+
 elseif placeId == 116495829188952 or placeId == 70876832253163 then
 -- Dead Rails
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/DeadRails.Lua"))()
-elseif placeId == 18687417158 then
--- Forsaken
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubForsaken.lua1"))()
+
+elseif placeId == 94845773826960 or placeId == 81734311524009 then
+-- DungeonHeroes.Lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/DungeonHeroes.Lua"))()
+
 elseif placeId == 87039211657390 then
 -- AriseCrossover
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubAriseCrossover.lua1"))()
+
 elseif placeId == 126884695634066 then
 -- GrowAGarden
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/GrowAGarden.Lua"))()
